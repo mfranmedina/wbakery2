@@ -762,12 +762,44 @@ background-color: black;
 
   } 
 
-  
+  .post{
+
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+
+  }
+
+  .post footer{
+
+    width: 0%;
+    height: 100%;
+    background: rgba(154, 209, 209, .71);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 400ms ease-in-out;
+
+  }
+
+  footer h3{
+    color: seashell;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+  .post:hover footer {
+    width: 40%;
+  }
+   
 
   section{
     width: 100%;
     height: auto; 
-
 
   }
 
