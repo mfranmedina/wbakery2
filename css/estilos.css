@@ -144,15 +144,20 @@ background-color: black;
   width: 405px;    
   background-size: cover;
   background-position: center;
-  color:#ced4da;
+  color:#ced4da;  
   
-  
+}
+
+.foto:hover{
+  transform: scale(1.05);
 }
 
 .foto1{
   background-image: url(../img/tortas/torta_choco.jpg);
   box-shadow: 0 0 5px 1px white;
   background-size: cover;
+  cursor: pointer;
+  transition: all ease-out 0.2s;
   
 
 }
@@ -161,12 +166,16 @@ background-color: black;
   background-image: url(../img/tortas/torta_mora.jpg);
   box-shadow: 0 0 5px 1px white;  
   background-size: cover;
+  cursor: pointer;
+  transition: all ease-out 0.2s;
 }
 
 .foto3{
   background-image: url(../img/postres/volcan.jpg);
   box-shadow: 0 0 5px 1px white;
   background-size: cover;
+  cursor: pointer;
+  transition: all ease-out 0.2s;
 }
 
 .foto4{
@@ -211,18 +220,24 @@ background-color: black;
   background-image: url(../img/frutillas.jpg);
   box-shadow: 0 0 5px 1px white;
   background-size: cover;
+  cursor: pointer;
+  transition: all ease-out 0.2s;
 }
 
 .foto10{
   background-image: url(../img/miel.jpg);
   box-shadow: 0 0 5px 1px white;
   background-size: cover;
+  cursor: pointer;
+  transition: all ease-out 0.2s;
 }
 
 .foto11{
   background-image: url(../img/cocinando.jpg);
   box-shadow: 0 0 5px 1px white;
   background-size: cover;
+  cursor: pointer;
+  transition: all ease-out 0.2s;
 }
 
 .foto12{
@@ -274,14 +289,18 @@ background-color: black;
 .foto17{
   background-image: url(../img/tora.jpg);
   box-shadow: 0 0 5px 1px white; 
-  background-size: cover;  
+  background-size: cover;
+  cursor: pointer;
+  transition: all ease-out 0.2s;
 
 }
 
 .foto18{
   background-image: url(../img/pasteles.jpg);
   box-shadow: 0 0 5px 1px white; 
-  background-size: cover;  
+  background-size: cover;
+  cursor: pointer;
+  transition: all ease-out 0.2s;  
 
 }
 
@@ -289,6 +308,8 @@ background-color: black;
   background-image: url(../img/postres.jpg);
   box-shadow: 0 0 5px 1px white;
   background-size: cover;  
+  cursor: pointer;
+  transition: all ease-out 0.2s;
 
 }
 
@@ -296,7 +317,9 @@ background-color: black;
 .foto20{
   background-image: url(../img/cumpleaños.jpg);
   box-shadow: 0 0 5px 1px white;  
-  background-size: cover;  
+  background-size: cover; 
+  cursor: pointer;
+  transition: all ease-out 0.2s;
 
 }
 
@@ -304,6 +327,8 @@ background-color: black;
   background-image: url(../img/matrimonios.jpg);
   box-shadow: 0 0 5px 1px white;  
   background-size: cover;  
+  cursor: pointer;
+  transition: all ease-out 0.2s;
 
 }
 
@@ -311,6 +336,8 @@ background-color: black;
   background-image: url(../img/catering.jpg);
   box-shadow: 0 0 5px 1px white;
   background-size: cover;  
+  cursor: pointer;
+  transition: all ease-out 0.2s;
 
 }
 
