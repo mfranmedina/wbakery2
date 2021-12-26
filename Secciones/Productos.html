@@ -7,6 +7,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  
     <link rel="stylesheet" href="../css/estilos.css">
 
     <title>Productos</title>
@@ -65,8 +66,8 @@
         <!--Productos-->        
         <div class="container pt-4">
             <img src="../img/cup-cake.png" alt="" width="40px" height="60px" class="icono">
-            <h2>Productos</h2>
-            <p>Los mejores productos con ingredientes naturales</p>            
+            <h2 data-aos="zoom-in">Productos</h2>
+            <p data-aos="zoom-in">Los mejores productos con ingredientes naturales</p>            
              
             <section class="sec sec1 row">               
           
@@ -99,7 +100,7 @@
         </div>
             <div class="container">
                 <img src="../img/cup-cake.png" alt="" width="40px" height="60px" class="icono">
-                <h2 class="pb-1">Tortas</h2>
+                <h2 class="pb-1" data-aos="zoom-in">Tortas</h2>
                 <hr>
             </div>
 
@@ -163,7 +164,7 @@
         </div>
             <div class="container pt-5">
                 <img src="../img/cup-cake.png" alt="" width="40px" height="60px" class="icono">
-                <h2 class="pb-1">Pasteles</h2>
+                <h2 class="pb-1" data-aos="zoom-in">Pasteles</h2>
                 <hr>
             </div>
 
@@ -228,7 +229,7 @@
         </div>
             <div class="container pt-5">
                 <img src="../img/cup-cake.png" alt="" width="40px" height="60px" class="icono">
-                <h2 class="pb-1">Postres</h2>
+                <h2 class="pb-1" data-aos="zoom-in">Postres</h2>
                 <hr>
             </div>
 
@@ -312,8 +313,11 @@
             <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
               © 2021 W Bakery. Todos los derechos reservados              
             </div>
-        
 
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>            
+            <script>
+                AOS.init();
+            </script>      
             <script src="../js/bootstrap.min.js"></script>
             <script src="../js/popper.min.js"></script>
 
